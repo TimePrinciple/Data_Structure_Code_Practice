@@ -7,7 +7,7 @@ using namespace std;
 
 int partition(vector<int> &Array, int left, int right) {
     // Choose the last element as the pivot
-    int pivot = Array[Array.size() - 1];
+    int pivot = Array[right];
 
     // Temporary pivot index
     int i = left - 1;
@@ -25,7 +25,7 @@ int partition(vector<int> &Array, int left, int right) {
     // Move the pivot element to the correct pivot position, between the smaller and
     // larger elements
     ++i;
-    swap(Array[i], Array[Array.size() - 1]);
+    swap(Array[i], Array[right]);
     return i;
 }
 
