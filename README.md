@@ -1,5 +1,20 @@
 # Data_Structure_Code_Practice
 
+## Get the Code Running
+
+For C++:
+1. Enter the `C++` directory under each argorithm folder.
+2. Run `gcc <file_to_compile> -lstdc++` to compile the code. 
+3. Run `./a.out` to run the program.
+
+For Go:
+1. Enter the `Go` directory under each argorithm folder.
+2. Run `go run .` to run the program.
+
+For Rust:
+1. Enter the `Rust` directory under each argorithm folder.
+2. Run `cargo run` to run the program.
+
 ## File Processing Snippet
 
 The snippet is served to read the content of a file named `input`, put the elements into the according container.
@@ -79,4 +94,14 @@ func main() {
     // Return result
     return
 }
+```
+
+### Rust
+
+```Rust
+!#[allow(non_snake_case)]
+!#[allow(dead_code)]
+
+
+
 ```
